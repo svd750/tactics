@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: '/tactics/',
   title: "Тактика военных действий",
   description: "Цель: познакомиться с азами планирования при подготовке к выполнению боевых задач",
   lang: 'ru-RU',
