@@ -1,0 +1,14 @@
+services:
+  wiki:
+    build:
+      context: docker
+      target: node22
+      args:
+        - UID=${UID}
+        - GID=${GID}
+    restart: unless-stopped
+    volumes:
+      - .:/var/www/frontend
+    command: sh -c 'yarn install && yarn docs:dev'
+    ports:
+      - "8989:8989"
