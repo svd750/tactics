@@ -22,8 +22,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Не требуется, если функция lastUpdated не включена
-      - name: Change dir
-        run: cd doc
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
