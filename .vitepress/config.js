@@ -31,7 +31,8 @@ export default defineConfig({
           { text: '01. Основные термины', link: '/block-1/lesson-01/' },
           { text: '02. Уяснение задачи и Оценка обстановки', link: '/block-1/lesson-02/' },
           { text: '03. Схема местности', link: '/block-1/lesson-03/' },
-          { text: '04. Система огня', link: '/block-1/lesson-04/' }
+          { text: '04. Система огня', link: '/block-1/lesson-04/' },
+          { text: '05. Управление огнем', link: '/block-1/lesson-05/' }
         ]
       },
       { text: 'Блок 2. "Основы организации обороны отделения и взвода"', link: '/block-2/' },
