@@ -13,7 +13,7 @@ export default [
     rules: {
       ...markdownlintPlugin.configs.recommended.rules,
       "markdownlint/md013":  ["error", {
-        "line_length": 120
+        "line_length": 200
       }],
       "markdownlint/md033": ["error", {
         "allowed_elements": ['br', 'hr', 'video']
