@@ -302,7 +302,3 @@
 Примерный масштаб карты - 1:1500
 
 ![img.png](img.png)
-
-## Источники
-
-* <http://www.compancommand.com/index/boevaja_podgotovka/0-24>
